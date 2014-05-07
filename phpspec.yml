@@ -1,0 +1,3 @@
+suites:
+  ignis_suite:
+    namespace: StudioIgnis\Form

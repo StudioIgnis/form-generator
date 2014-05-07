@@ -1,0 +1,31 @@
+{
+    "name": "studioignis/form-generator",
+    "description": "Form generator and validator for Laravel framework.",
+    "keywords": ["form", "generator", "validator", "laravel"],
+    "authors": [
+        {
+            "name": "Luciano Longo",
+            "email": "luciano.longo@studioignis.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "require-dev": {
+        "mockery/mockery":"dev-master",
+        "phpspec/phpspec":"~2.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "StudioIgnis\\Form\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
